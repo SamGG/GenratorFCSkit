@@ -8,7 +8,7 @@ This reality is reprented by an additional information called a prediction varia
 each cell of the cell type to which it belongs have been used.
 
 These files are obtained with Flowjo
-![GenratorFCSkit](fcsgenrator/3ckit.PNG)
+![GenratorFCSkit](Schemas/fcsgenrator.PNG)
 
 Each population of detected cells is isolated and exported as a single file. 
 Once user get files corresponding to each population and annotated with the name of the populations, these ones can be import in GeneratorFCSkit
