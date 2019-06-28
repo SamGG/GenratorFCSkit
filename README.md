@@ -10,6 +10,26 @@ each cell of the cell type to which it belongs have been used.
 These files are obtained with Flowjo
 ![GenratorFCSkit](Schemas/fcsgenrator.PNG)
 
+# 01.Exported each Gated Population on Flowjo in single FCS files 
+
+From a gating strategy of a raw FCS file carried out on FlowJo, it is possible to export the populations obtained by the manual gating in FCS file
+The gating strategy corresponds to the .wsp file obtained after the gating which can be directly reloaded in Flowjo.
+Once the file is loaded, the list of the different populations that have been selected by manual windowing appears like this.
+
+The goal here is to export each population to a separate FCS file and give each file the name of the corresponding poppulation.
+
+
+
+
+
+
+
+
+
+
+
+
+
 Each population of detected cells is isolated and exported as a single file. 
 Once user get files corresponding to each population and annotated with the name of the populations, these ones can be import in GeneratorFCSkit
 which allows to extract the useful characteristics for their modeling.
