@@ -39,10 +39,49 @@ once Each population of detected cells is isolated and exported as a single file
 Once user get files corresponding to each population and annotated with the name of the populations, these ones can be import in GeneratorFCSkit,which allows to extract the useful characteristics for their modeling.
 A pipeline that takes these different files as input has been created which allows to know the percentage of each population within a sample and the most important to allow a user to have control of these frequencies by modulating the MFI, as markers calculated from this pipeline.
 
-# 02 GenratorFCSkit Funtionality
+# 02 GenratorFCSkit Functionality
 
-These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency. 
-A pipeline then makes it possible to generate cells having the characteristics described and to group them 
+GenratorFCSkit application is divided into 2 tabs
+
+A first for the import of FCS files representing each Population present in an FCS file obtained with Flowjo and the choice of parameters for the generation of a new enriched FCS file.
+
+importing files
+![GenratorFCSkit](Schemas/fcsfiles.png)
+
+Choice of markers for transformation and compensation
+
+![GenratorFCSkit](Schemas/markers select.png)
+Compensation and Transformation with arcsinh
+
+![GenratorFCSkit](Schemas/transformCompensate.png)
+
+Extraction of the frequencies of the population (modifiable part by the user)
+These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency.
+![GenratorFCSkit](Schemas/ExtractFrequencies.png)
+Export the frequency table
+![GenratorFCSkit](Schemas/Extraction.png)
+
+Calculation of Mfi and sdFI of selected markers
+![GenratorFCSkit](Schemas/Extraction.png)
+Visualization of the MFIs and SsdFIs of each Markers
+![GenratorFCSkit](Schemas/ExtractMfisdfFI.png)
+
+Export of MFI and sdFI matrice
+
+
+A second tab is used to generate one or more FCS file (s) from the MFI and sdFI matrix.
+ 
+
+![GenratorFCSkit](Schemas/GenerateFCS.png)
+Importing the matrix
+Importing the R .data
+Choice of the number of events by files
+Choice of the number of Generated files
+
+ 
+finnaly  this app generate cells having the characteristics described and to group them 
 in the same cytometry file by specifying the number of cells desired. It is possible to generate replicas with some variability
 
 The new data includes additional information that makes it possible to know which cell subpopulation belongs to each event.
+
+
