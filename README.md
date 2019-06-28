@@ -46,25 +46,25 @@ GenratorFCSkit application is divided into 2 tabs
 A first for the import of FCS files representing each Population present in an FCS file obtained with Flowjo and the choice of parameters for the generation of a new enriched FCS file.
 
 importing files
-![GenratorFCSkit](Schemas/fcsfiles.png)
+![GenratorFCSkit](Schemas/fcsfiles.PNG)
 
 Choice of markers for transformation and compensation
 
-![GenratorFCSkit](Schemas/markers select.png)
+![GenratorFCSkit](Schemas/markers select.PNG)
 Compensation and Transformation with arcsinh
 
-![GenratorFCSkit](Schemas/transformCompensate.png)
+![GenratorFCSkit](Schemas/transformCompensate.PNG)
 
 Extraction of the frequencies of the population (modifiable part by the user)
 These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency.
-![GenratorFCSkit](Schemas/ExtractFrequencies.png)
+![GenratorFCSkit](Schemas/ExtractFrequencies.PNG)
 Export the frequency table
-![GenratorFCSkit](Schemas/Extraction.png)
+![GenratorFCSkit](Schemas/Extraction.PNG)
 
 Calculation of Mfi and sdFI of selected markers
-![GenratorFCSkit](Schemas/Extraction.png)
+![GenratorFCSkit](Schemas/Extraction.PNG)
 Visualization of the MFIs and SsdFIs of each Markers
-![GenratorFCSkit](Schemas/ExtractMfisdfFI.png)
+![GenratorFCSkit](Schemas/ExtractMfisdfFI.PNG)
 
 Export of MFI and sdFI matrice
 
@@ -72,7 +72,7 @@ Export of MFI and sdFI matrice
 A second tab is used to generate one or more FCS file (s) from the MFI and sdFI matrix.
  
 
-![GenratorFCSkit](Schemas/GenerateFCS.png)
+![GenratorFCSkit](Schemas/GenerateFCS.PNG)
 Importing the matrix
 Importing the R .data
 Choice of the number of events by files
