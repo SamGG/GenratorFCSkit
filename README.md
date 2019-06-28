@@ -18,20 +18,20 @@ The goal here is to export each population to a separate FCS file and give each 
 
 To export a particular gated population in Flowjo , highlight the gated subset within a gating tree(either by group or individual samples).
 
-![GenratorFCSkit](Schemas/selectpop.PNG)
+![GenratorFCSkit](Schemas/selectpop.png)
 
 Next, within the Document band of the workspace ribbon (located by default within the File tab), click on the Data Export/Concatenate action button.
 Select either Export/Concatenate Populations or Export/Concatenate Group, as appropriate, from the drop down list.
 
-![GenratorFCSkit](Schemas/export.PNG)
+![GenratorFCSkit](Schemas/export.png)
 
 This will bring up a bring up the following Export or Concatenate window.
 
-![GenratorFCSkit](Schemas/exporting.PNG)
+![GenratorFCSkit](Schemas/exporting.png)
 
 Clicking on the Advanced Options bar will open additional File Naming options. You can add a Prefix or Suffix to distinguish these files from the originals (export is added as Prefix by default) and even a build a custom file naming scheme using Keywords.
 
-![GenratorFCSkit](Schemas/changename.PNG)
+![GenratorFCSkit](Schemas/changename.png)
 
 Once these options are set as you like (the Status section at the bottom of the window tells how many files will be generated), click on the Export button at the bottom right of the dialog box. The following dialog box will appear.
 
