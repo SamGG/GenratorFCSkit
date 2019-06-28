@@ -59,27 +59,29 @@ Extraction of the frequencies of the population (modifiable part by the user)
 These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency.
 ![GenratorFCSkit](Schemas/ExtractFrequencies.PNG)
 Export the frequency table
-![GenratorFCSkit](Schemas/Extraction.PNG)
 
 Calculation of Mfi and sdFI of selected markers
+
 ![GenratorFCSkit](Schemas/Extraction.PNG)
+
 Visualization of the MFIs and SsdFIs of each Markers
+
 ![GenratorFCSkit](Schemas/ExtractMfisdfFI.PNG)
 
 Export of MFI and sdFI matrice
-
 
 A second tab is used to generate one or more FCS file (s) from the MFI and sdFI matrix.
  
 
 ![GenratorFCSkit](Schemas/GenerateFCS.PNG)
+
 Importing the matrix
 Importing the R .data
 Choice of the number of events by files
 Choice of the number of Generated files
 
  
-finnaly  this app generate cells having the characteristics described and to group them 
+Finnaly this app generate cells having the characteristics described and to group them 
 in the same cytometry file by specifying the number of cells desired. It is possible to generate replicas with some variability
 
 The new data includes additional information that makes it possible to know which cell subpopulation belongs to each event.
