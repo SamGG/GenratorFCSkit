@@ -39,7 +39,7 @@ once Each population of detected cells is isolated and exported as a single file
 Once user get files corresponding to each population and annotated with the name of the populations, these ones can be import in GeneratorFCSkit,which allows to extract the useful characteristics for their modeling.
 A pipeline that takes these different files as input has been created which allows to know the percentage of each population within a sample and the most important to allow a user to have control of these frequencies by modulating the MFI, as markers calculated from this pipeline.
 
-#02 GenratorFCSkit Funtionality
+# 02 GenratorFCSkit Funtionality
 
 These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency. 
 A pipeline then makes it possible to generate cells having the characteristics described and to group them 
