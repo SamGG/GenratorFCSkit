@@ -27,13 +27,18 @@ Select either Export/Concatenate Populations or Export/Concatenate Group, as app
 
 This will bring up a bring up the following Export or Concatenate window.
 
-![GenratorFCSkit](Schemas/exporting.png)
+![GenratorFCSkit](Schemas/export1.png)
 
-Clicking on the Advanced Options bar will open additional File Naming options. You can add a Prefix or Suffix to distinguish these files from the originals (export is added as Prefix by default) and even a build a custom file naming scheme using Keywords.
+Clicking on the Advanced Options bar will open additional File Naming options. You can add a Prefix or Suffix to distinguish these files from the originals (export is added as Prefix by default) and even a build a custom file naming scheme using Keywords by choising the radiobutton customize.
 
-![GenratorFCSkit](Schemas/changename.png)
+![GenratorFCSkit](Schemas/export2.png)
 
 Once these options are set as you like (the Status section at the bottom of the window tells how many files will be generated), click on the Export button at the bottom right of the dialog box. The following dialog box will appear.
+
+When you customize popname, only the keyword FJ_LAST_UNIQUE_POP_NAME must appear in the new popname
+![GenratorFCSkit](Schemas/export3.png)
+
+For example for population CD56+ he fcs file name will be CD56+.fcs
 
 once Each population of detected cells is isolated and exported as a single file. 
 Once user get files corresponding to each population and annotated with the name of the populations, these ones can be import in GeneratorFCSkit,which allows to extract the useful characteristics for their modeling.
