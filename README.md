@@ -6,7 +6,7 @@ This reality is reprented by an additional information called a prediction varia
 each cell of the cell type to which it belongs have been used.
 
 These files are obtained with Flowjo
-![GenratorFCSkit](Schemas/fcsgenrator.png)
+![GenratorFCSkit](Schemas/fcsgenrator.PNG)
 
 # 01.Exported each Gated Population on Flowjo in single FCS files 
 
@@ -18,7 +18,7 @@ The goal here is to export each population to a separate FCS file and give each 
 
 To export a particular gated population in Flowjo , highlight the gated subset within a gating tree(either by group or individual samples).
 
-![GenratorFCSkit](Schemas/selectpop.PNG)
+![GenratorFCSkit](Schemas/selectpop.png)
 
 Next, within the Document band of the workspace ribbon (located by default within the File tab), click on the Data Export/Concatenate action button.
 Select either Export/Concatenate Populations or Export/Concatenate Group, as appropriate, from the drop down list.
