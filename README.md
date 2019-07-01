@@ -56,7 +56,7 @@ importing files
 
 Choice of markers for transformation and compensation
 
-![GenratorFCSkit](Schemas/markers select.PNG)
+![GenratorFCSkit](Schemas/markers.PNG)
 
 Compensation and Transformation with arcsinh
 
