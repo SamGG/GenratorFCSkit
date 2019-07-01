@@ -18,7 +18,7 @@ The goal here is to export each population to a separate FCS file and give each 
 
 To export a particular gated population in Flowjo , highlight the gated subset within a gating tree(either by group or individual samples).
 
-![GenratorFCSkit](Schemas/selectpop.png)
+![GenratorFCSkit](Schemas/selectpop.PNG)
 
 Next, within the Document band of the workspace ribbon (located by default within the File tab), click on the Data Export/Concatenate action button.
 Select either Export/Concatenate Populations or Export/Concatenate Group, as appropriate, from the drop down list.
