@@ -6,7 +6,7 @@ This reality is reprented by an additional information called a prediction varia
 each cell of the cell type to which it belongs have been used.
 
 These files are obtained with Flowjo
-![GenratorFCSkit](Schemas/fcsgenrator.PNG)
+![GenratorFCSkit](Schemas/fcsgenrator.png)
 
 # 01.Exported each Gated Population on Flowjo in single FCS files 
 
