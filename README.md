@@ -57,13 +57,16 @@ importing files
 Choice of markers for transformation and compensation
 
 ![GenratorFCSkit](Schemas/markers select.PNG)
+
 Compensation and Transformation with arcsinh
 
 ![GenratorFCSkit](Schemas/transformCompensate.PNG)
 
 Extraction of the frequencies of the population (modifiable part by the user)
 These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency.
+
 ![GenratorFCSkit](Schemas/ExtractFrequencies.PNG)
+
 Export the frequency table
 
 Calculation of Mfi and sdFI of selected markers
