@@ -49,7 +49,7 @@ A pipeline that takes these different files as input has been created which allo
 
 GenratorFCSkit application is divided into 2 tabs
 
-A first for the import of FCS files representing each Population present in an FCS file obtained with Flowjo and the choice of parameters for the generation of a new enriched FCS file.
+A first a tab for imortingFCS files representing each Population present in an FCS file obtained with Flowjo and the choice of parameters for the generation of a new enriched FCS file.
 
 importing files
 ![GenratorFCSkit](Schemas/fcsfiles.PNG)
