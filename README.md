@@ -1,11 +1,9 @@
 # GenratorFCSkit
-GeneratorFCSkit allows to obtain simulated FCS data whose reality is known in order to evaluate results of some cytometry tools for example the
-FCS fenerated will be able to compare the performances of the algorithms use for automtic gating in Cytofkit with those which one expects
-in reality(manual gating).
-This reality is reprented by an additional information called a prediction variable in the FCS files corresponding to an assignment for 
-each cell of the cell type to which it belongs have been used.
+GeneratorFCSkit allows to obtain enriched FCS data whose reality is known in order to evaluate results of some cytometry tools for example the evaluation of automatic gating with Cytofkit. 
+FCS generated will be able to compare the performances of the algorithms use for automtic gating in Cytofkit with those which one expects in reality(manual gating).
+This enrichment is reprented by an additional information called a prediction variable in the FCS files corresponding to an assignment for each cell of the cell population to which it belongs.
 
-These files are obtained with Flowjo <www.google.com>
+Many steps are necessary to obtain this FCS files starting from a normal FCS files (FCS3.0)
 ![GenratorFCSkit](Schemas/fcsgenrator.PNG)
 
 # 01.Exported each Gated Population on Flowjo in single FCS files 
@@ -41,17 +39,19 @@ When you customize popname, only the keyword FJ_LAST_UNIQUE_POP_NAME must appear
 For example for population CD56+ he fcs file name will be CD56+.fcs
 ![GenratorFCSkit](Schemas/exportfile3.PNG)
 
-once Each population of detected cells is isolated and exported as a single file. 
-Once user get files corresponding to each population and annotated with the name of the populations, these ones can be import in GeneratorFCSkit,which allows to extract the useful characteristics for their modeling.
-A pipeline that takes these different files as input has been created which allows to know the percentage of each population within a sample and the most important to allow a user to have control of these frequencies by modulating the MFI, as markers calculated from this pipeline.
 
-# 02 GenratorFCSkit Functionality
+# 02 GeneratorFCSkit
+
+Once user get files corresponding to each population Each population of detected cells population with manual gating, these ones can be import in GeneratorFCSkit, which allows to extract the useful characteristics for their modeling.
+GeneratorFCSkit allows to know the percentage of each population within a sample and the most important to allow a user to have control of these frequencies by modulating the MFI and the SFI of markers .
 
 GenratorFCSkit application is divided into 2 tabs
 
 A first a tab for imortingFCS files representing each Population present in an FCS file obtained with Flowjo and the choice of parameters for the generation of a new enriched FCS file.
 
-importing files
+## 02.1 Parameterization of FCS files to be generated
+
+Importing simulated files
 ![GenratorFCSkit](Schemas/fcsfiles.PNG)
 
 Choice of markers for transformation and compensation
@@ -72,8 +72,8 @@ Export the frequency table
 Calculation of Mfi and sdFI of selected markers
 
 The calculation of the Mfi for each population makes it possible to see the average fluorescence of the markers for a given population.
-the sdfi allows when she to check the quality of the manual gating to see if all populations are well separated
-this makes it possible to have information on the potential populations that can be grouped together or that can be redefined because it is not very homogeneous
+the sdfi allows to check the quality of the manual gating for exampleto see if all populations are well separated
+this makes it possible to have information on the potential populations that can be grouped together or that can be redefined due to high values of sdfi 
 
 ![GenratorFCSkit](Schemas/Extraction.PNG)
 
@@ -83,20 +83,23 @@ Visualization of the MFIs and SsdFIs of each Markers
 
 Export of MFI and sdFI matrice
 
+## 02.1 Generating New FCS files according to the mfi and sdfi tab define by user 
+
 A second tab is used to generate one or more FCS file (s) from the MFI and sdFI matrix.
  
-
 ![GenratorFCSkit](Schemas/GenerateFCS.PNG)
 
 Importing the matrix
-Importing the R .data
+Importing the R .data containg the compensation matrix if data have to be decompensated 
 Choice of the number of events by files
 Choice of the number of Generated files
+
+Optionnaly Generated FCS files can be detransformed (only for arcsinh transformation) or decompensated (if data are previously compensate before genrating)
 
  
 Finnaly this app generate cells having the characteristics described and to group them 
 in the same cytometry file by specifying the number of cells desired. It is possible to generate replicas with some variability
 
-The new data includes additional information that makes it possible to know which cell subpopulation belongs to each event.
+The new data includes additional information that makes it possible to know which cell subpopulation belongs to each event.This what is called enriched Fcs files
 
 
