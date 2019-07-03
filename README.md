@@ -63,17 +63,12 @@ Compensation and Transformation with arcsinh
 ![GenratorFCSkit](Schemas/transformCompensate.PNG)
 
 Extraction of the frequencies of the population (modifiable part by the user)
-These characteristics are saved in an Excel file (CSV) which makes it easy to modify them, such as their frequency.
+These characteristics are saved in an Excel file (CSV) which makes it easy to modify them.
 
 ![GenratorFCSkit](Schemas/ExtractFrequencies.PNG)
 
-Export the frequency table
 
 Calculation of Mfi and sdFI of selected markers
-
-The calculation of the Mfi for each population makes it possible to see the average fluorescence of the markers for a given population.
-the sdfi allows to check the quality of the manual gating for exampleto see if all populations are well separated
-this makes it possible to have information on the potential populations that can be grouped together or that can be redefined due to high values of sdfi 
 
 ![GenratorFCSkit](Schemas/Extraction.PNG)
 
@@ -81,7 +76,18 @@ Visualization of the MFIs and SsdFIs of each Markers
 
 ![GenratorFCSkit](Schemas/ExtractMfisdfFI.PNG)
 
-Export of MFI and sdFI matrice
+The calculation of the Mfi for each population makes it possible to see the average fluorescence of the markers for a given population.
+
+![GenratorFCSkit](Schemas/mfi.PNG)
+
+The sdfi allows to check the quality of the manual gating for exampleto see if all populations are well separated
+this makes it possible to have information on the potential populations that can be grouped together or that can be redefined due to high values of sdfi. 
+
+![GenratorFCSkit](Schemas/sdfi.PNG)
+
+The table of population Mfi and sdFI can also be exported and modified by user 
+
+![GenratorFCSkit](Schemas/mfi_modified.PNG)
 
 ## 02.1 Generating New FCS files according to the mfi and sdfi tab define by user 
 
