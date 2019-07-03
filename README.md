@@ -5,7 +5,7 @@ in reality(manual gating).
 This reality is reprented by an additional information called a prediction variable in the FCS files corresponding to an assignment for 
 each cell of the cell type to which it belongs have been used.
 
-These files are obtained with Flowjo
+These files are obtained with Flowjo <www.google.com>
 ![GenratorFCSkit](Schemas/fcsgenrator.PNG)
 
 # 01.Exported each Gated Population on Flowjo in single FCS files 
@@ -70,6 +70,10 @@ These characteristics are saved in an Excel file (CSV) which makes it easy to mo
 Export the frequency table
 
 Calculation of Mfi and sdFI of selected markers
+
+The calculation of the Mfi for each population makes it possible to see the average fluorescence of the markers for a given population.
+the sdfi allows when she to check the quality of the manual gating to see if all populations are well separated
+this makes it possible to have information on the potential populations that can be grouped together or that can be redefined because it is not very homogeneous
 
 ![GenratorFCSkit](Schemas/Extraction.PNG)
 
