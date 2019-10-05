@@ -8,7 +8,7 @@ Many steps are necessary to obtain this FCS files starting from a normal FCS fil
 
 # 01.Exported each Gated Population on Flowjo in single FCS files 
 
-From a gating strategy of a raw FCS file carried out on FlowJo, it is possible to export the populations obtained by the manual gating in FCS file
+From a gating strategy of a raw FCS file carried out on FlowJo, it is possible to export the populations obtained by the manual gating in FCS file.
 The gating strategy corresponds to the .wsp file obtained after the gating which can be directly reloaded in Flowjo.
 Once the file is loaded, the list of the different populations that have been selected by manual windowing appears like this.
 
@@ -100,7 +100,7 @@ Importing the R .data containg the compensation matrix if data have to be decomp
 Choice of the number of events by files
 Choice of the number of Generated files
 
-Optionnaly Generated FCS files can be detransformed (only for arcsinh transformation) or decompensated (if data are previously compensate before genrating)
+Optionnaly Generated FCS files can be detransformed (only for arcsinh transformation) or decompensated (if data are previously compensate before genrating).
 
  
 Finnaly this app generate cells having the characteristics described and to group them 
